@@ -133,3 +133,39 @@ h2{
 .speaker-card:hover{
     transform:translatey(-5px);
 }
+/* pricing-section */
+.pricing{
+    padding: 100px 0;
+    /* width:300px; */
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.pricing p{
+    text-align: center;
+}
+.pricing-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.prising-card{
+    background-color:#f8f9fb;
+    padding:40px;
+    border-radius: 32px;
+    border-color: #e5e7eb;
+    border-style: solid; 
+    border-width: 1px;
+    width: 300px;
+    /* height: auto; */
+    /* box-shadow: 0 10px 25 rgba(0, 0, 0, .08);
+    text-align: center; */
+}
