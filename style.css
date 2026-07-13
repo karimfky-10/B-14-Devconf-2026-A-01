@@ -269,3 +269,100 @@ h2{
 .prising-card-m button:hover{
     background: #13357c;
 }
+/* AI section */
+
+.ai-section{
+    padding: 100px 0;
+    background-color: #f8fafc;
+}
+.ai-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.ai-image{
+    /* flex:1; */
+}
+.ai-content h2{
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.ai-content p{
+    color:#6b7280;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.ai-img {
+    border-radius: 20px;
+    transition: 0.4s;
+}
+/* .ai-img img:hover{ */
+    transform: scale(1.03);
+}
+
+.ai-containt{
+    flex: 1;
+}
+
+.ai-content h2{
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #111827;
+}
+
+.ai-content p{
+    font-size: 18px;
+    color: #6b7280;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.ai-containt button{
+    background: #4F46E5;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.ai-containt button:hover{
+    background: #3730A3;
+}
+.footer{
+    background-color: #111827;
+    padding: 70px 0;
+    text-align: center;
+}
+.footer h2{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.footer p{
+    color: #d1d5db;
+    margin-bottom: 25px;
+}
+.footer-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.footer-menu a:hover{
+    color: #4F46E5;
+}
+.copyright{
+    font-size: 14px;
+    color: #9ca3af;
+}
