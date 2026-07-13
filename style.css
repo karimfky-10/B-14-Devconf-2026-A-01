@@ -165,7 +165,107 @@ h2{
     border-style: solid; 
     border-width: 1px;
     width: 300px;
-    /* height: auto; */
-    /* box-shadow: 0 10px 25 rgba(0, 0, 0, .08);
-    text-align: center; */
+}
+.prising-card h5{
+    font-size: 13px;
+    color: #888888FF; 
+}
+.prising-card h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #0d1b2aFF;
+    font-weight: 700;
+    line-height: 1;
+}
+.prising-card p{
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #888888FF;
+    margin-bottom: 0px;  
+} 
+.prising-card ul li{
+    /* height: 20px; */            
+    /* width: 2px; */
+    padding-top:10px;
+    row-gap: 10px;
+    font-size: 15px;
+    color: #333333;
+}
+.prising-card ul li::marker{
+    color: #2563eb;
+    font-size: 14px;
+}
+/* prisin-card-m */
+    
+
+
+.prising-card-m{
+    background-color:#0d1b2a;
+    padding:32px;
+    border-radius: 32px;
+    border-style: solid; 
+    border-width: 1px;
+    padding-top:10px;
+    height: auto;
+    row-gap: 10px;
+    width: 300px;
+    transition: .3s;
+}    
+
+
+.prising-card-m h5{
+    font-size: 13px;
+    color: #93c5fd;
+    margin-bottom: 10px;
+}
+  .prising-card-m h1{
+    color:#ffffff;
+    font-size: 44px;
+}  
+.prising-card-m p{
+    text-align: left;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #ffffff80;
+    margin-bottom:  8px;
+
+    
+} 
+.prising-card-m ul li{
+    height: auto;            
+    padding-top:10px;
+    font-size: 15px;
+    color: #ffffffCC;
+}
+.prising-card-m ul li::marker{
+    color: #2563eb;
+    font-size: 14px;
+    
+}
+.prising-card button{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px; 
+    border-radius: 11px;
+    margin-top: 20px;
+    cursor: pointer; 
+    justify-content: center;
+}
+.prising-card button:hover{
+    transform: translate(-5px);
+}
+.prising-card-m button{
+    background: #2563ebFF;
+     width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    color:white;
+    border: none;
+    border-radius: 11px;
+    margin-top: 20px;
+    cursor: pointer; 
+}
+.prising-card-m button:hover{
+    background: #13357c;
 }
