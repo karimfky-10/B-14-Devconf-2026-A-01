@@ -1,0 +1,85 @@
+*{ 
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.body{
+    font-family: arial, sans-serif;
+}
+.navber-0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+}
+.menu{
+    list-style: none;
+    display:flex;
+    gap: 40px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: #374151;
+    font-weight:700;
+}
+.menu a:hover{
+    color:blue;
+}
+.nav-btn button{
+    background-color:#4F46E5 ;
+    color: white; 
+    border: none;
+    padding: 14px 28px;  
+    border-radius: 10px;
+    cursor: pointer;
+  font-size: 18px;
+    font-weight: 600;    
+}
+.nav-btn button:hover{
+    background: #3730a3;  
+}
+/* Hero section */
+.hero{
+    height: 700px;
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.hero-content{
+    text-align: center;
+    color:white;
+
+}
+.hero-content h1{
+    font-size:72px;
+    /* font-weight: 700; */
+    /* line-height: 85px; */
+    margin-bottom: 25px;
+}
+.hero-content p{
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.hero-content button{
+    background-color:#4F46E5 ;
+    color: white; 
+    border: none;
+    padding: 16px 35px;  
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.hero-content button:hover{
+    background: #3730a3;
+}   
